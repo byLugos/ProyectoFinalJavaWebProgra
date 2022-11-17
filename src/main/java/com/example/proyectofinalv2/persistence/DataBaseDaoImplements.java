@@ -14,7 +14,7 @@ public class DataBaseDaoImplements implements DataBaseInterface<Activity> {
     /**
      * Atributo estático que contiene la URL del servidor
      */
-    private final String URL = "jdbc:mysql://localhost:3306/sistema_notas?allowPublicKeyRetrieval=true&useSSL=false";
+    private final String URL = "jdbc:mysql://127.0.0.1:3306/sistema_notas?allowPublicKeyRetrieval=true&useSSL=false";
 
     /**
      * Atributo que debe ser cambiado según el usuario, para la base de datos
@@ -24,7 +24,7 @@ public class DataBaseDaoImplements implements DataBaseInterface<Activity> {
     /**
      * Atributo que debe ser cambiado segun la contraseña del usuario
      */
-    private final String PASSWORD = "7355608byLugos";
+    private final String PASSWORD = "Silvana1403hija++";
 
     /**
      * Metodo que retorna en una lista, las actividades en la base de datos
